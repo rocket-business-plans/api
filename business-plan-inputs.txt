@@ -1,0 +1,111 @@
+business_id
+  business_name
+  business_address
+  business_phone
+  business_fax
+  business_cellphone
+  business_email
+
+executive_summary
+  overview
+  products_and_services #
+  market_analysis #
+  marketing_strategy #
+  key_objectives #
+  financial #
+  management_profile => user(s) #
+
+key_objectives
+  short_term
+  long_term
+
+market_analysis
+  industry_background
+  customer_profile
+  trends
+  market_research_results
+
+products_and_services
+
+competition
+  competitors
+  competitive advantage
+
+marketing_strategy 
+
+products_and_services_production
+
+SWOT_analysis
+  stregnths
+  weaknesses
+    solutions
+  opportunities
+  threats
+    solutions
+
+business_structure
+  legal_entity_type #
+  physical_premises #
+
+physical_premises
+  business_address #
+  hours_of_operation
+
+legal_entity_type
+
+management_profile
+  users #
+    contact #
+    skills_possessed 
+    long_term_goals
+    personal_budget #
+
+financial
+  financial_overview
+  establishment_costs #
+
+
+establishment_costs
+  item #
+  first_year_projections #
+  sources_of_finance #
+  break_even_analysis #
+  returns_on_investment #
+  personal_budget => users => #
+
+item
+  cost_to_buy
+  item_description
+  value_of_exiting  
+
+first_year_projections
+  profit_and_loss #
+  cash_flow #
+  balance_sheet #
+
+personal_budget
+  funds_required
+  personal_living_cost
+
+action_plan
+
+contingencies
+  contingencies
+
+key_contacts_suppliers
+  key_contacts_suppliers #
+
+key_contacts_suppliers
+  supplier_name
+  supplier_phone
+  supplier_address
+  supplier_email
+  services_offered
+
+
+
+
+
+  
+
+
