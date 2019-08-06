@@ -1,0 +1,32 @@
+{
+  "name": "rocket-business-plans-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --detectOpenHandles --forceExit",
+    "test-watch": "jest --watchAll --verbose --forceExit",
+    "lint": "eslint .",
+    "watch": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.0",
+    "supertest": "^3.3.0",
+    "uuid": "^3.3.2"
+  }
+}
